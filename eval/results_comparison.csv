@@ -1,0 +1,7 @@
+Model,Macro-F1
+TF-IDF + Logistic Regression,0.702
+TF-IDF + SVM,0.7645
+LightGBM (Text-Only),0.6247
+LightGBM (Graph-Only),0.7399
+LightGBM (Hybrid),0.7485
+Hybrid + Label Awareness,0.7485

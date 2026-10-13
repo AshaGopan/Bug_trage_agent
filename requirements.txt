@@ -1,0 +1,12 @@
+pandas
+scikit-learn
+sentence-transformers
+chromadb
+langgraph
+fastapi
+uvicorn
+streamlit
+pytest
+python-dotenv
+httpx
+lightgbm
