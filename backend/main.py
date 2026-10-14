@@ -6,6 +6,10 @@ the LangGraph triage agent workflow.
 
 from pathlib import Path
 import sys
+import warnings
+
+# Suppress internal PyTorch / dependencies deprecation warnings
+warnings.filterwarnings("ignore", category=FutureWarning)
 
 from fastapi import FastAPI, HTTPException
 

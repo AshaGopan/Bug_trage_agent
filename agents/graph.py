@@ -9,6 +9,10 @@ Constructs the complete state machine orchestrating:
 
 from pathlib import Path
 import sys
+import warnings
+
+# Suppress internal PyTorch / dependencies deprecation warnings
+warnings.filterwarnings("ignore", category=FutureWarning)
 
 # Ensure UTF-8 output encoding for Windows terminal
 if sys.stdout and hasattr(sys.stdout, "reconfigure"):
